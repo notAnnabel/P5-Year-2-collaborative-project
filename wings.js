@@ -1,7 +1,7 @@
 function drawLeftWing(flap){
   push()
   beginShape()
-  translate(195, 250);
+  translate(290, 250);
   rotate(-flap)
   wingl = vertex(0, 0)
   
@@ -17,7 +17,7 @@ function drawRightWing(flap){
   push()
   beginShape()
   // wingr = vertex(205, 250)
-  translate(195, 250)
+  translate(300, 252)
   rotate(flap)
   wingr = vertex(0,0)
   fill("rgb(212,199,156)")
@@ -33,7 +33,7 @@ function drawRightWing(flap){
 function drawLowerLeftWing(flap){
   push()
   beginShape()
-  translate(195, 250);
+  translate(290, 250);
   rotate(-flap*2)
   wingl = vertex(0, 0)
   
@@ -60,7 +60,7 @@ function drawLowerLeftWing(flap){
 function drawLowerRightWing(flap){
   push()
   beginShape()
-  translate(195, 250);
+  translate(300, 252);
   rotate(flap*2)
   wingl = vertex(0, 0)
   
