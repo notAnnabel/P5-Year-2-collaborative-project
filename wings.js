@@ -43,6 +43,17 @@ function drawLowerLeftWing(flap){
   winglshape = bezierVertex(-237, -234, 3, -263,1, -71)
   endShape(CLOSE)
   pop()
+
+  /* code to add
+    wingmaskL = loadImage('wing mask directory goes here')
+    use clip(wingmaskL) to clip wing colour to moth wing
+    the moth mask image needs to line up with the moth wing size!
+
+    translate()
+    rotate(-flap*2)
+    wingmaskLVertex = vertex(0,0)
+
+  */
 }
 
 
