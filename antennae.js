@@ -5,10 +5,10 @@ function drawAntennaeLeft(){
   strokeWeight(2)
   stroke("rgb(139,95,95)")
   fill("rgba(255,255,255,0)") // transparent fill
-  antennea = vertex(width/3-100, height/2-110)
+  antennea = vertex(width/3-30, height/2-110)
   
   // wingrshape = bezierVertex(342, 314, 408, -143,236, 149)
-  antenneashape = bezierVertex(80, 110, 101, 53, 190, 149)
+  antenneashape = bezierVertex(140, 110, 181, 53, 290, 143)
   // (80, 100, 101, 43,190, 139)
   endShape()
   pop()
