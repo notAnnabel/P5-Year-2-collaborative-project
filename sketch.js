@@ -7,8 +7,8 @@ function setup() {
 
 function draw() {
   background(220);
-  flap = sin(frameCount * 6)*10;
-
+  flap = sin(frameCount * 8)*5; 
+  // 8 is the flap speed, 20 controls the flap range extremes
   
   drawLowerLeftWing(flap)
   drawLowerRightWing(flap)

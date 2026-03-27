@@ -5,8 +5,8 @@ wingrclip = loadImage('assets/greentestimage.jpg'); // testing wing clipping
 function drawLeftWing(flap){
   push()
   beginShape()
-  translate(290, 250);
-  rotate(-flap)
+  translate(290, 150);
+  rotate(-flap-90)
   wingl = vertex(0, 0)
   
   fill("rgb(212,199,156)")
@@ -19,16 +19,14 @@ function drawLeftWing(flap){
 
 function drawRightWing(flap){
   push()
-  //beginClip()
-  //image(wingrclip,300, 252, wingrclip.width, wingrclip.height)
   beginShape()
   // wingr = vertex(205, 250)
-  translate(300, 252)
-  rotate(flap)
+  translate(300, 150)
+  rotate(flap+90)
   wingr = vertex(0,0)
   fill("rgb(212,199,156)")
   
-  //wingrshape = bezierVertex(422.5, -14, 191, 43,196, 149)
+  
   wingrshape = bezierVertex(227.5, -264, -24, -293,1, -101)
 
   //endClip()
@@ -39,8 +37,8 @@ function drawRightWing(flap){
 function drawLowerLeftWing(flap){
   push()
   beginShape()
-  translate(290, 250);
-  rotate(-flap*2)
+  translate(290, 160);
+  rotate(-flap*2-100)
   wingl = vertex(0, 0)
   
   fill("rgb(212,199,156)")
@@ -66,8 +64,8 @@ function drawLowerLeftWing(flap){
 function drawLowerRightWing(flap){
   push()
   beginShape()
-  translate(300, 252);
-  rotate(flap*2)
+  translate(300, 160);
+  rotate(flap*2+100)
   wingl = vertex(0, 0)
   
   fill("rgb(212,199,156)")
