@@ -10,6 +10,13 @@ function drawLeftWing(flap){
   wingl = vertex(0, 0)
 
   fill("rgb(212,199,156)")
+  
+
+  
+  //circle(287-197, 150+30, 10)
+
+
+
   // winglshape = bezierVertex(-237, -264, 3, -293,1, -101) og shape
   winglshape = bezierVertex(-197,30, -163, -158, -90, -151) //+ og
   endShape(CLOSE)
@@ -27,7 +34,11 @@ function drawRightWing(flap){
   
   
   // wingrshape = bezierVertex(227.5, -264, -24, -293,1, -101)
-  wingrshape = bezierVertex(227.5, -264, -24, -293,1, -101)
+  //wingrshape = bezierVertex(227.5, -234, -24, -263,1, -71)
+
+
+   //winglshape = bezierVertex(-197,30, -163, -158, -90, -151) //left wing flip attemtp
+   winglshape = bezierVertex(217,30, 183, -158, 110, -151) //left wing flip attemtp
   
 
   //endClip()
@@ -73,7 +84,9 @@ function drawLowerRightWing(flap){
   fill("rgb(212,199,156)")
   
   //winglshape = bezierVertex(-237, -264, 3, -293, 1, -101)
-  wingrshape = bezierVertex(227.5, -234, -24, -263,1, -71)
+  //wingrshape = bezierVertex(227.5, -234, -24, -263,1, -71) before change
+
+    winglshape = bezierVertex(217,30, 183, -158, 110, -151) //left wing flip attemtp
 
   endShape(CLOSE)
   pop()
